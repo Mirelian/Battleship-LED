@@ -1,6 +1,6 @@
 #include "header.h"
 
-const uint8_t buzz[2] = {PB5, PB6};
+const uint8_t buzz[2] = {PD5, PD6};
 
 void playTone(uint8_t buzzerpin, int frequency, int duration)
 {
