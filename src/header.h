@@ -55,7 +55,6 @@ enum GamePhase
 {
     PLACE_PHASE,
     BATTLE_PHASE,
-    END_PHASE
 };
 extern enum GamePhase gamePhase;
 
