@@ -148,7 +148,7 @@ _Bool checkMovement(uint8_t player, uint8_t r_dist, uint8_t c_dist)
         return 0;
     if (col > 7 || col < 0)
     {
-        return 1;
+        return 0;
     }
     return 1;
 }
