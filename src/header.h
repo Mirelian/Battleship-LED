@@ -40,8 +40,8 @@
 #define VALUE_IN_RANGE(read_value, threshold_value) \
     ((read_value - threshold_value) <= 15 || ((threshold_value - read_value) <= 15))
 
-extern unsigned char f1;
-extern unsigned char f2;
+extern volatile unsigned char f1;
+extern volatile unsigned char f2;
 
 extern const uint8_t csPin;
 extern const uint8_t buzz[2];
