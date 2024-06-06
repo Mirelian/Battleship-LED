@@ -1,7 +1,7 @@
 #include "header.h"
 
-unsigned char f1 = 0xFF; // ship flicker
-unsigned char f2 = 1;    // cursor flicker
+volatile unsigned char f1 = 0xFF; // ship flicker
+volatile unsigned char f2 = 1;    // cursor flicker
 
 void timer1_init()
 {
